@@ -1,12 +1,12 @@
 
-import './App.css'
+import Button from "./components/Button/Button"
 
 function App() {
 
 
   return (
     <div>
-      asd
+      <Button buttonType={"primary"} onClick={() => console.log('clicked')}>adsa</Button>
     </div>
   )
 }
